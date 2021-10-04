@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="search-section">
+        <div class="myform">
+            <input type="text" name="cityName" id="cityname" placeholder="City Name">
+            <button type="submit" onclick="weatherBalloon()">Search</button>
+        </div>
+    </section>
+    <section class="weather-card">
+        <div id="weather">
+            <img class="icon-img" id="icon"></img>
+            <h1 class="temp" id="temp"></h1>
+            <div>
+                <div class="des" id="description"></div>
+                <div class="location" id="location"></div>
+            </div>            
+        </div>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
